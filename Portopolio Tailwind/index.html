@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya | Muhammad Fahad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-slate-800 leading-relaxed">
+
+    <nav class="bg-white h-[70px] flex items-center sticky top-0 z-[1000] shadow-md">
+        <div class="container mx-auto px-5 flex justify-between items-center w-full">
+            <h1 class="text-2xl font-bold text-slate-800">MyDev<span class="text-black-600">.</span></h1>
+            <ul class="hidden md:flex space-x-6 list-none">
+                <li><a href="#home" class="no-underline text-slate-800 font-semibold hover:text-blue-600 transition duration-300">Home</a></li>
+                <li><a href="#about" class="no-underline text-slate-800 font-semibold hover:text-blue-600 transition duration-300">About</a></li>
+                <li><a href="#skills" class="no-underline text-slate-800 font-semibold hover:text-blue-600 transition duration-300">Skills</a></li>
+                <li><a href="#projects" class="no-underline text-slate-800 font-semibold hover:text-blue-600 transition duration-300">Projects</a></li>
+                <li><a href="#contact" class="no-underline text-slate-800 font-semibold hover:text-blue-600 transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="h-[90vh] flex items-center justify-center text-center bg-white border-b border-gray-200">
+        <div class="container mx-auto px-5">
+            <img src="phd.jpeg" alt="Foto Diri" class="w-[180px] h-[180px] rounded-full border-[5px] border-blue-600 mb-5 mx-auto object-cover">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Halo, Saya Muhammad Fahad Faturahman Arasyid</span></h1>
+            <p class="max-w-2xl mx-auto text-gray-600">Seorang Software Engineer yang memiliki minat besar dalam pengembangan perangkat lunak, pemecahan masalah, dan membangun sistem efisien.</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-5">
+            <h2 class="text-3xl font-bold text-center mb-12 relative inline-block left-1/2 -translate-x-1/2 after:content-[''] after:bg-blue-600 after:h-1 after:w-12 after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2">About Me</h2>
+            <div class="bg-white p-8 rounded-xl shadow-sm">
+                <div class="max-w-3xl mx-auto text-center md:text-left">
+                    <h3 class="text-xl font-bold mb-4">Biodata & Latar Belakang</h3>
+                    <p class="mb-4 text-gray-600 text-justify">Sebelum saya melanjutkan kuliah di jurusan Teknik Informatika, saya sempat bekerja di PT Tirta Fresindo Jaya (Mayora Group) Bogor sebagai Quality Control. Dalam pekerjaan tersebut saya bertanggung jawab memastikan kualitas produk sesuai dengan standar perusahaan. Namun sejak SMA saya sudah memiliki ketertarikan yang besar terhadap dunia teknologi dan komputer, karena minat tersebut, saya memutuskan untuk melanjutkan pendidikan di bidang Teknik Informatika agar dapat mengembangkan kemampuan dan berkarir di dunia IT.</p>
+                    <div class="space-y-2">
+                        <p><strong>Pendidikan:</strong> S1 Teknik Informatika</p>
+                        <p><strong>Minat IT:</strong> Web Development, AI & Machine Learning, New Tech.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-5">
+            <h2 class="text-3xl font-bold text-center mb-12 relative inline-block left-1/2 -translate-x-1/2 after:content-[''] after:bg-blue-600 after:h-1 after:w-12 after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2">My Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <h4 class="font-bold">HTML</h4>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <h4 class="font-bold">CSS</h4>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <h4 class="font-bold">JavaScript</h4>
+                </div>
+                <div class="bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition text-center">
+                    <h4 class="font-bold">React / Vue</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20">
+        <div class="container mx-auto px-5">
+            <h2 class="text-3xl font-bold text-center mb-12 relative inline-block left-1/2 -translate-x-1/2 after:content-[''] after:bg-blue-600 after:h-1 after:w-12 after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                    <img src="POK.png" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">E-Commerce Web</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Website coffee shop modern dengan desain UI/UX yang responsif.</p>
+                        <a href="https://www.figma.com/..." class="text-blue-600 font-bold hover:underline">Demo Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-5 text-center">
+            <h2 class="text-3xl font-bold text-center mb-12 relative inline-block left-1/2 -translate-x-1/2 after:content-[''] after:bg-blue-600 after:h-1 after:w-12 after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2">Contact Me</h2>
+            <form class="max-w-xl mx-auto flex flex-col gap-4 bg-white p-8 rounded-xl shadow-sm">
+                <input type="text" placeholder="Nama" required class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 transition">
+                <input type="email" placeholder="Email Anda" required class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 transition">
+                <textarea rows="5" placeholder="Pesan Anda" required class="p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 transition"></textarea>
+                <button type="submit" class="bg-blue-600 text-white p-3 rounded-md font-bold hover:bg-blue-700 transition cursor-pointer">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-slate-800 text-white py-8 text-center">
+        <div class="container mx-auto px-5">
+            <p>&copy; 2026 Muhammad Fahad Faturahman Arasyid. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
